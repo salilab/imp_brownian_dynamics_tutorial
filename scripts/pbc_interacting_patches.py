@@ -77,7 +77,7 @@ K_PATCHES= 2.0 # Strength of patch attraction in kcal/mol/A^2
 RANGE_PATCHES_A= 300.0 # range of patch interactions in angstroms
 # III. Time parameters:
 BD_STEP_SIZE_SEC= 100E-9
-SIM_TIME_SEC= 0.050
+SIM_TIME_SEC= 0.0050
 bd_step_size_fs= BD_STEP_SIZE_SEC * 1E+15
 sim_time_ns= SIM_TIME_SEC * 1E+9
 RMF_DUMP_INTERVAL_NS= sim_time_ns / 1000.0
