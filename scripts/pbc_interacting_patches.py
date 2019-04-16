@@ -43,6 +43,7 @@ def create_nucleus(m, R):
     xyzr.set_coordinates_are_optimized(True)
     xyzr.set_coordinates([0,0,0])
     xyzr.set_radius(R)
+    IMP.atom.Mass.setup_particle(p, 1.0) # fake mass
     IMP.display.Colored.setup_particle(p,
                                        IMP.display.get_display_color(2))
     IMP.atom.Hierarchy.setup_particle(p)
