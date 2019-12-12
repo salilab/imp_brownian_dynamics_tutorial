@@ -2,4 +2,3 @@ title: Brownian dynamics tutorial
 description: >
     Introduction to Brownian Dynamics (BD) and setting up and running
     BD simulations in IMP.
-show_in_index: false
