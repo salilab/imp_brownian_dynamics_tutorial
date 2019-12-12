@@ -1,2 +1,8 @@
-*.rmf
+__pycache__
 *.pyc
+.cache
+.ipynb_checkpoints
+Doxyfile
+pbc_simple.md
+pbc_simple.rmf
+html
