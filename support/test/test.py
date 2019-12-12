@@ -14,7 +14,7 @@ class Tests(unittest.TestCase):
     def test_simple(self):
         """Test the simple modeling script"""
         p = subprocess.check_call([sys.executable, "pbc_simple.py"])
-        self._check_rmf('pbc_simple.py.rmf', nframes=1001)
+        self._check_rmf('pbc_simple.rmf', nframes=1001)
 
     def test_patches(self):
         """Test the patches modeling script"""
