@@ -144,6 +144,7 @@ sf = IMP.core.RestraintsScoringFunction(rs, "SF")
 bd = IMP.atom.BrownianDynamics(m)
 bd.set_log_level(IMP.SILENT)
 bd.set_scoring_function(sf)
+bd.set_maximum_move(1000.0)
 bd.set_maximum_time_step(bd_step_size_fs) # in femtoseconds
 bd.set_temperature(300)
 
