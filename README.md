@@ -1,4 +1,5 @@
 [![Build Status](https://github.com/salilab/imp_brownian_dynamics_tutorial/workflows/build/badge.svg?branch=main)](https://github.com/salilab/imp_brownian_dynamics_tutorial/actions?query=workflow%3Abuild)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/salilab/imp_brownian_dynamics_tutorial/blob/main/scripts/pbc_simple-colab.ipynb)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/salilab/imp_brownian_dynamics_tutorial/main?filepath=scripts%2Fpbc_simple.ipynb)
 
 This tutorial introduces Brownian Dynamics (BD) and shows how
