@@ -1,7 +1,6 @@
 """
 Factory for generating granules
 """
-from __future__ import print_function, division
 import IMP.atom
 import IMP.algebra
 import IMP.core

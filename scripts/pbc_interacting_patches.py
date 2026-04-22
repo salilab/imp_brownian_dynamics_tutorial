@@ -2,7 +2,6 @@
 To set up a simplified system for the study of RDF restraints.
 
 """
-from __future__ import print_function, division
 import IMP.atom
 import IMP.algebra
 import IMP.rmf
